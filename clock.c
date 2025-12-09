@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main( ) {
+	int h, m, s;
+	printf("Enter three number = ");
+	scanf("%d %d %d", &h, &m, &s);
+	printf("hour: %d\n", h);
+	printf("minute: %d\n", m);
+	printf("second: %d\n", s);
+	return 0;
+}
